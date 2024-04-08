@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{B8FCDC55-698E-4987-AB76-5FA977371E45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{D9F4E662-F57C-472F-B139-F14D7B7780E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B8FCDC55-698E-4987-AB76-5FA977371E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8FCDC55-698E-4987-AB76-5FA977371E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8FCDC55-698E-4987-AB76-5FA977371E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8FCDC55-698E-4987-AB76-5FA977371E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {597A934B-8CF8-4D42-BB24-4BCF09852185}
+		SolutionGuid = {6A93EF7D-E9A3-4092-8FB6-471C8116F11D}
 	EndGlobalSection
 EndGlobal
