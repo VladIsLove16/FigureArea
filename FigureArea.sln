@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{D9F4E662-F57C-472F-B139-F14D7B7780E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{1AD121B4-75B9-40E9-8EFF-731D8548EEE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9F4E662-F57C-472F-B139-F14D7B7780E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AD121B4-75B9-40E9-8EFF-731D8548EEE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AD121B4-75B9-40E9-8EFF-731D8548EEE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AD121B4-75B9-40E9-8EFF-731D8548EEE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AD121B4-75B9-40E9-8EFF-731D8548EEE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
