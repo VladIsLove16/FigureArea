@@ -1,6 +1,5 @@
 ﻿using FigureArea;
 using Xunit;
-float a;
 
 public class CircleSquareTest()
 {
@@ -37,4 +36,35 @@ public class TriangleSquareTest()
     {
         Assert.InRange(FigureArea.FigureArea.TriangleSquare(notException[0], notException[1], notException[2]), 0.11, 0.12);
     }
+}
+public class IShapeTest()
+{
+    float radius=0.8f;
+    float[] triangle = [1.2f, 0.3f, 1.15f];
+    IShape shape;
+    [Fact]
+    public void CircleTypeTest()
+    {
+        shape = new Circle(radius);
+        Assert.IsType<Circle>(shape);
+    }
+    [Fact]
+    public void TriangleTypeTest()
+    {
+        shape = new Triangle(triangle[0], triangle[1], triangle[2]);
+        Assert.IsType<Triangle>(shape);
+    }
+    [Fact]
+    public void CircleCalculationTest()
+    {
+        shape = new Circle(radius);
+        Assert.InRange(shape.CalculateArea(), 2.0f, 2.1f);
+    }
+    [Fact]
+    public void TriangleCalculationTest()
+    {
+        shape = new Triangle(triangle[0], triangle[1], triangle[2]);
+        Assert.InRange(shape.CalculateArea(), 0.1, 0.2);
+    }
+
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FigureArea
 {
-    internal class Triangle :IShape
+    public class Triangle :IShape
     {
         public Triangle(float a,float b, float c) {
             this.a = a;

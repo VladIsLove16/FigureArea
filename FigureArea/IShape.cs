@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FigureArea
 {
-    internal interface IShape
+    public interface IShape
     {
         public float CalculateArea();
     }
