@@ -21,11 +21,16 @@
                 flag = 'a';
             if (flag != ' ')
                 throw new ArgumentException($"Сторона {flag} больше суммы двух других");
+            bool SquareTriangle = false;
+            if ((a * a + b * b == c * c) || (a * a + c * c == b * b) || (b * b + c * c == a * a))
+                SquareTriangle = true;
+            if (SquareTriangle) Console.WriteLine($"Треугольник {a} {b} {c} прямоугольный");
             float P = a + b + c;
             float p = P / 2;
             float SquareS = p*(p - a) * (p - b)*(p - c);
             float S=(float)Math.Sqrt(SquareS);
             return S;
         }
+
     }
 }
