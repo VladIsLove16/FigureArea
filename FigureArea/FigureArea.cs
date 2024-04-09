@@ -31,6 +31,18 @@
             float S=(float)Math.Sqrt(SquareS);
             return S;
         }
-
+        //приведение к одному методу с перегрузками
+        public static float Calculate(float radius)
+        {
+            return CircleSquare(radius);
+        }
+        public static float Calculate(float a,float b, float c)
+        {
+            return TriangleSquare(a,b,c);
+        }
+        public static float Calculate(float a, float b)//Квадрат или прямоугольник
+        {
+            return a*b;
+        }
     }
 }
